@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="file:///F:/DAM/Osuna/Lenguaje/Examenes/T1-2/LMSGI02_1415/estilos.css">
+</head>
+<body>
+
+<!--Barra de navegación-->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a><img src="logo.png" class="w3-bar-item w3-button w3-padding-large" width="70" height="60" alt="logo"></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Inicio</a>
+        <a href="#comite" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Comité Organizador</a>
+        <a href="#calendario" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Calendario</a>
+        <a href="#contacto" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contacto</a>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+</div>
+
+<!--Inicio-->
+<div class="w3-content" style="max-width:2000px;margin-top:46px"></div>
+
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="#">
+        <h2 class="w3-wide">Campeonato Ornitológico de Andalucía</h2>
+        <p class="w3-left">Somos la Federación Ornitológica de Andalucía, una institución de naturaleza asociativa y sin ánimo de lucro, que tiene como fines primordiales la defensa de la naturaleza mediante la reproducción doméstica de diversas especies ornitológicas, siempre respetando el marco legal vigente y sobre todo fomentando el amor por las aves y su estudio.</p>
+        <p class="w3-left">La Federación Ornitológica de Andalucía organiza anualmente un campeonato autonómico en el cúal se exponen diferentes especies de aves que compiten por premios por categorías.</p>
+        <p class="w3-left">El XXIV Campeonato Ornitológico de Andalucía 2019 se va a celebrar en Benalup-Casas Viejas – Cádiz, del 8 al 17 de noviembre, en la Caseta Municipal “</p>
+        <p class="w3-left">El reglamento de dicho campeonato se puede ver visitando <a href="http://www.foandaluza.es/docs/ReglamentoCampeonatoFOA.pdf">esta web.</a></p>
+
+<!--Comité-->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="comite">
+        <h2 class="w3-wide">Comité Organizador</h2>
+        <p class="w3-left">Los miembros del comité organizador está compuesto de los siguientes expertos:</p>
+        <div class="w3-third">
+            <p>Miguel Ángel López Rodríguez</p>
+            <img src="data:image/jpeg;base64,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" class="w3-round w3-margin-bottom" alt="Random Name" style="width:50%">
+            <p><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('info').style.display='block'">Más info..</button></p>
+        </div>
+        <div class="w3-third">
+            <p>Alfredo Correa Correa</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSox0Z4LtiCJSkgRRS965CKcFi95GEZH6ispWyNneB4Nl1MWjjm&s" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+            <p><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('info').style.display='block'">Más info..</button></p>
+        </div>
+        <div class="w3-third">
+            <p>Antonio Gómez Serrano</p>
+            <img src="data:image/jpeg;base64,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" class="w3-round" alt="Random Name" style="width:60%">
+            <p><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('info').style.display='block'">Más info..</button></p>
+        </div>
+</div>
+</div>
+
+<!--Info-->
+<div id="info" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-teal w3-center w3-padding-32"> 
+            <span onclick="document.getElementById('info').style.display='none'" 
+           class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Información sobre Comité</h2>
+          </header>
+          <div class="w3-container">
+            <h4 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Miguel Ángel López Rodríguez</h4>
+            <p><label>Nació en Madrid (España) el día 14-06-1965, tiene el cargo de Presidente desde el año 1990, su teléfono es el 666777888 y su correo es presidente@foa.es, vive en Calle Argentina, 1, 28086 Madrid. Pertenece a la Asociación Ornitológica Madrileña con el cargo de Presidente y a la Asociación Roquetera Ornitológica como criador. Tiene un palmarés como concursante en campeonatos regionales de 58 medallas de oro, 40 de plata y 76 de bronce. </label></p>
+            <h4 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Alfredo Correa Correa</h4>
+            <p><label>Nació en Granada (España) el día 24-06-1983, tiene el cargo de Secretario desde el año 2001, su teléfono es el 666555444 y su correo es secretario@foa.es, vive en Carretera de Ronda, 106, 18003 Granada. Pertenece como criador a la Asociación Ornitológica Alhambra. Tiene un palmarés como concursante en campeonatos regionales de 20 medallas de oro y 10 de plata. </label></p>
+            <h4 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Antonio Gómez Serrano</h4>
+            <p><label>Nació en Almería (España) el día 29-10-1979, tiene el cargo de Tesorero desde este año, su teléfono es el 666111222 y su correo es tesorero@foa.es, vive en Avenida de la Legión, s/n, 04740 Roquetas de Mar (Almería). Es el presidente de la Asociación Roquetera Ornitológica. Aún no ha conseguido ninguna medalla. </label></p>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById('info').style.display='none'">Cerrar <i class="fa fa-remove"></i></button>
+            
+          </div>
+    </div>
+</div>
+
+<!-- Galería -->
+<div class="w3-black">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center">Galería</h2>
+          <p class="w3-opacity w3-center"><i>Fotos de los participantes</i></p><br>
+    
+          <ul class="w3-ul w3-border w3-white w3-text-grey">
+            <li class="w3-padding">Categoría 1 <span class="w3-badge w3-right w3-margin-right">15 participantes</span></li>
+            <li class="w3-padding">Categoría 2 <span class="w3-badge w3-right w3-margin-right">10 participantes</span></li>
+            <li class="w3-padding">Categoría 3<span class="w3-badge w3-right w3-margin-right">12 participantes</span></li>
+            <li class="w3-padding">Categoría 4<span class="w3-badge w3-right w3-margin-right">12 participantes</span></li>
+            <li class="w3-padding">Categoría 5<span class="w3-badge w3-right w3-margin-right">18 participantes</span></li>
+            <li class="w3-padding">Categoría 6<span class="w3-badge w3-right w3-margin-right">5 participantes</span></li>
+          </ul>
+    
+          <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+              <img src="ganardor1_b.jpg" alt="New York" style="width:100%" class="if-image:hover">
+              <div class="w3-container w3-white">
+                <p><b>Categoría 1</b></p>
+                <p class="w3-opacity">Ganador</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img src="ganardor2_b.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+              <div class="w3-container w3-white">
+                <p><b>Categoría 2</b></p>
+                <p class="w3-opacity">Ganador</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img src="ganardor3_b.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+              <div class="w3-container w3-white">
+                <p><b>Categoría 3</b></p>
+                <p class="w3-opacity">Ganador</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="ganardor4_b.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Categoría 4</b></p>
+                    <p class="w3-opacity">Ganador</p>
+                    </div>
+                </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="ganardor5_b.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Categoría 5</b></p>
+                    <p class="w3-opacity">Ganador</p>
+                    </div>
+            </div>
+                <div class="w3-third w3-margin-bottom">
+                <img src="ganardor6_b.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Categoría 6</b></p>
+                    <p class="w3-opacity">Ganador</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Calendario -->
+<div class="w3-black" id="calendario">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center">Calendario</h2>
+          <p class="w3-opacity w3-center"><i>Fechas y eventos de la competición</i></p><br>
+    
+          <ul class="w3-ul w3-border w3-white w3-text-grey">
+            <li class="w3-padding">Noviembre 8 -- Fiesta de bienvenida.</li>
+            <li class="w3-padding">Noviembre 9 y 10 -- Exposición.</li>
+            <li class="w3-padding">Noviembre 11 -- Primera fase.</li>
+            <li class="w3-padding">Noviembre 13 -- Segunda fase.</li>
+            <li class="w3-padding">Noviembre 15 -- Tercera fase.</li>
+            <li class="w3-padding">Noviembre 17 -- Fase final y entrega de premios.</li>
+          </ul>
+        </div>
+</div>
+
+<!-- Contacto -->
+
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contacto">
+        <h2 class="w3-wide w3-center">Contacto</h2>
+        <p class="w3-opacity w3-center"><i>Rellena nuestro formulario de contacto.</i></p>
+        <div class="w3-row w3-padding-32">
+          <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width:30px"></i> Sevilla, España<br>
+            <i class="fa fa-phone" style="width:30px"></i> Teléfono: +34 689457236<br>
+            <i class="fa fa-envelope" style="width:30px"> </i> Correo electrónico: ComiteAND_info@gmail.com<br>
+          </div>
+          <div class="w3-col m6">
+            <form action="/action_page.php" target="_blank">
+              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+                </div>
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Correo electrónico" required name="Email">
+                </div>
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Teléfono" required name="Name">
+                </div>
+                <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Asunto" required name="Name">
+                </div>
+              </div>
+              <input class="w3-input w3-border" type="text" placeholder="Comentarios" required name="Message">
+              <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
