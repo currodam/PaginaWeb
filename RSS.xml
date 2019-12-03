@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+    <channel>
+        <title>Canal RSS de Curro del Pino</title>
+        <link>file:///G:/DAM/Osuna_26-11/Lenguaje/WEB/RSS/Examen_T2.html</link>
+        <description> Noticias de actualidad </description>
+        
+        <item> 
+        <title>Mi noticia de actualidad 1</title>
+        <link>https://www.nbamaniacs.com/</link>
+        <description> Noticia 2 de actualidad del pais </description>
+        </item>
+      
+        <item> 
+        <title>Mi noticia de actualidad 2</title>
+        <link>https://www.estadiodeportivo.com/</link>
+        <description> Noticia 2 de actualidad del pais </description>
+        </item>
+
+        <item> 
+        <title>Mi noticia de actualidad 3</title>
+        <link>https://www.gigantes.com/</link>
+        <description> Noticia 3 de actualidad del pais </description>
+        </item>
+    </channel>
+
+</rss>
