@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+    <channel>
+        <title>Canal RSS de Curro del Pino</title>
+        <link>http://mipractica-practica.apps.ca-central-1.starter.openshift-online.com/Examen_T2.html</link>
+        <description> Noticias de actualidad </description>
+        
+        <item> 
+        <title>Mi noticia de actualidad 1</title>
+        <link>https://www.nbamaniacs.com/noticias/tremendo-rose-17-puntos-en-el-ultimo-cuarto-y-canasta-ganadora/</link>
+        <img src="https://www.nbamaniacs.com/wp-content/uploads/2019/12/GettyImages-1187036933.jpg">
+        <description> Noticia 1 de actualidad del pais </description>
+        </item>
+      
+        <item> 
+        <title>Mi noticia de actualidad 2</title>
+        <link>https://www.estadiodeportivo.com/</link>
+        <description> Noticia 2 de actualidad del pais </description>
+        </item>
+
+        <item> 
+        <title>Mi noticia de actualidad 3</title>
+        <link>https://www.gigantes.com/</link>
+        <description> Noticia 3 de actualidad del pais </description>
+        </item>
+    </channel>
+
+</rss>
